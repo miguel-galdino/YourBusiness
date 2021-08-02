@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>YourBusiness</title>
+    
+    <!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- SwiperJS (plugin da seção de planos) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+
+	<!-- main css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar">
+		<div class="logo">
+			<a href="#"><span>Y</span>our<span>B</span>usiness</a>
+		</div>
+		<div class="nav-list">
+			<a href="#home" class="nav-link">Início</a>
+			<a href="#about-us" class="nav-link">Sobre Nós</a>
+			<a href="#pricing" class="nav-link">Planos</a>
+			<a href="#" class="nav-link">Blog</a>
+			<a href="#contact" class="nav-link">Contato</a>
+		</div>
+	</nav>
+
+	<!-- Fim da Navbar -->
+
+	<!-- Menu -->
+	<div class="menu">
+		<div class="line line-1"></div>
+		<div class="line line-2"></div>
+		<div class="line line-3"></div>
+	</div>
+	<!-- Fim do Menu -->
+
+	<div class="container">
+
+		<!-- Section 1 -->
+		<section id="home" class="section-1">
+			<div class="banner">
+				<h1 class="banner-heading">
+					<span class="heading-1">Inovação</span>
+					<span class="heading-2">Consultoria</span>
+					<span class="heading-3">Marketing Digital</span>
+					<span class="heading-4">Estratégia</span>
+				</h1>
+				<p class="banner-paragraph">Impulsione seu négocio hoje</p>
+				<button class="banner-btn">Descubra como</button>
+			</div>
+		</section>
+		<!-- Fim da Section 1 -->
+
+		<!-- Section 2 -->
+		<section id="about-us" class="section-2">
+			<h1 class="section-heading">Sobre Nós</h1>
+			<div class="section-heading-line"></div>
+			<div class="video-wrapper">
+				<video class="video" src="images/about-us-video.mp4"></video>
+				<div class="controls">
+					<div class="video-bar-wrapper">
+						<div class="video-bar"></div>
+					</div>
+					<div class="buttons">
+						<button>
+							<i class="far fa-play-circle"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<p class="section-2-paragraph">
+				<i class="fas fa-quote-left"></i>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				<i class="fas fa-quote-right"></i>
+			</p>
+		</section>
+		<!-- Fim da Section 2 -->
+
+		<!-- Section 3 -->
+		<section id="pricing" class="section-3">
+			<h1 class="section-heading">Nossos Planos</h1>
+			<div class="section-heading-line"></div>
+			<div class="swiper-container">
+			<div class="pricing-cards-wrapper swiper-wrapper">
+				<div class="pricing-card swiper-slide">
+					<div class="pricing-card-front">
+						<h1 class="pricing-card-heading heading-free">FREE</h1>
+						<h3 class="pricing-card-price">$0</h3>
+						<ul class="pricing-card-list list-free">
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-times"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-times"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-times"></i>
+								<span>Pricing Card Item</span>
+							</li>
+						</ul>
+						<button class="pricing-card-btn btn-free">
+							Escolher Plano</button>
+					</div>
+					<div class="pricing-card-back back-free">
+						<a href="#">Assine agora</a>
+					</div>
+				</div>
+
+				<div class="pricing-card swiper-slide">
+					<div class="pricing-card-front">
+						<h1 class="pricing-card-heading heading-basic">BASIC</h1>
+						<h3 class="pricing-card-price">$29</h3>
+						<ul class="pricing-card-list list-basic">
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-times"></i>
+								<span>Pricing Card Item</span>
+							</li>
+						</ul>
+						<button class="pricing-card-btn btn-basic">
+							Choose Plan</button>
+					</div>
+					<div class="pricing-card-back back-basic">
+						<a href="#">Assine agora</a>
+					</div>
+				</div>
+
+				<div class="pricing-card swiper-slide">
+					<div class="pricing-card-front">
+						<h1 class="pricing-card-heading heading-standard">STANDARD</h1>
+						<h3 class="pricing-card-price">$49</h3>
+						<ul class="pricing-card-list list-standard">
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+						</ul>
+						<button class="pricing-card-btn btn-standard">
+							Choose Plan</button>
+					</div>
+					<div class="pricing-card-back back-standard">
+						<a href="#">Contrate Agora</a>
+					</div>
+				</div>
+
+				 <div class="pricing-card swiper-slide">
+					<div class="pricing-card-front">
+						<h1 class="pricing-card-heading heading-premium">PREMIUM</h1>
+						<h3 class="pricing-card-price">$99</h3>
+						<ul class="pricing-card-list list-premium">
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Pricing Card Item</span>
+							</li>
+						</ul>
+						<button class="pricing-card-btn btn-premium">
+							Choose Plan</button>
+					</div>
+					<div class="pricing-card-back back-premium">
+						<a href="#">Assine agora</a>
+					</div>
+				 </div>
+			 </div>
+		  </div>
+		</section>
+		<!-- Fim da Section 3 -->
+
+		<!-- Section 4 -->
+		<section id="contact" class="section-4">
+			<h1 class="section-heading">Contato</h1>
+			<div class="section-heading-line"></div>
+			<div class="info-wrapper">
+			  <div class="contact-details">
+				<div class="info-box">
+					<i class="fas fa-mobile-alt"></i>
+					<h4><span>T</span>elefone</h4>
+					<p>+123 456 789</p>
+					<p>+987 654 321</p>
+				</div>
+				<div class="info-box">
+					<i class="fas fa-map-marker-alt"></i>
+					<h4><span>E</span>ndereço</h4>
+					<p>Main street #123</p>
+					<p>Wall street #123</p>
+				</div>
+				<div class="info-box">
+					<i class="far fa-envelope"></i>
+					<h4><span>E</span>mail</h4>
+					<p>support@gmail.com</pn>
+					<p>sales@gmail.com</p>
+				</div>
+			  </div>
+				<h1>Entre em contato</h1>
+				<form class="contact-form">
+					<input type="text" placeholder="Seu nome">
+					<input type="email" placeholder="Seu email">
+					<textarea placeholder="Sua Mensagem"></textarea>
+					<input type="submit"><!-- Enviar Mensagem --></input>
+				</form>
+			</div>
+		</section>
+		<!-- Fim da Section 4 -->
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer-nav">
+				<a href="#home">Início</a>
+				<a href="#about-us">Sobre Nós</a>
+				<a href="#pricing">Planos</a>
+				<a href="#contact">Contato</a>
+			</div>
+			<p>
+			</p>
+			<p class="copyright">Copyright &copy; YourBusiness Todos Os Direitos Reservados</p>
+			<div class="social">
+			<a href="https://github.com/miguel-galdino" target="_blank">
+			<i class="fab fa-github"></i>
+	        </a>
+			<a href="https://linkedin.com/in/miguel-galdino" target="_blank">
+			<i class="fab fa-linkedin"></i>
+		    </a>
+			</div>
+			</footer>
+      	<!-- Fim do footer -->
+
+
+
+	</div>
+
+
+
+	<!-- JS Scripts -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
